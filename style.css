@@ -1,0 +1,73 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: grey;
+}
+body{
+    opacity: 0.7;
+    margin: auto;
+    text-align: center;
+}
+header {
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    margin-top: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, lightgrey , darkgray);
+
+}
+#logo {
+    height: 150px;
+    padding-left: 10px;
+    float: left;
+}
+nav li{
+    padding-top: 50px;
+    text-decoration: underline;
+    display: block;
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+
+}
+nav{
+    
+    align-content: right;
+
+}
+nav a {
+    color: black;
+}
+main{
+    margin: auto;
+}
+.header-element{
+    background-image: url(/resources/mac.jpg);
+    height: 700px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: inline-flex;
+    flex-flow: column;
+   
+}
+.mission{
+    background-color: grey;
+    width: 1000px;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    height: 100px; 
+    margin: 0 auto;  
+    justify-content: center; 
+    line-height: 10px;
+}
+
+.contact{
+    padding-bottom: 50px;
+    text-align: center;
+}
